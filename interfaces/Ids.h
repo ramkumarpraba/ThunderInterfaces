@@ -354,7 +354,12 @@ namespace Exchange {
         ID_SCRIPT_ENGINE_NOTIFICATION                = ID_SCRIPT_ENGINE + 1,
 
         ID_TEXT_TO_SPEECH                            = RPC::IDS::ID_EXTERNAL_INTERFACE_OFFSET + 0x4C0,
-        ID_TEXT_TO_SPEECH_NOTIFICATION               = ID_TEXT_TO_SPEECH + 1
+        ID_TEXT_TO_SPEECH_NOTIFICATION               = ID_TEXT_TO_SPEECH + 1,
+
+        ID_DEVICE_OPTIMIZE_STATE_ACTIVATOR           = RPC::IDS::ID_EXTERNAL_INTERFACE_OFFSET + 0x510,
+
+        ID_SYSTEM_MODE                               = RPC::IDS::ID_EXTERNAL_INTERFACE_OFFSET + 0x520,
+        ID_SYSTEM_MODE_NOTIFICATION                  = ID_SYSTEM_MODE + 1
     };
 }
 }
